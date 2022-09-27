@@ -1,0 +1,8 @@
+[services.ab]
+inputs = ["backends.a", "backends.b"]
+
+[backends.a]
+url = "https://abc.com"
+
+[backends.b]
+url = "https://abc.com"
